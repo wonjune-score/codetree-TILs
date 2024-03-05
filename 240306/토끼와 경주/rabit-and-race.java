@@ -187,8 +187,8 @@ public class Main {
             @Override
             public int compare(Rabbit o1, Rabbit o2) {
                 if(o1.r + o1.c != o2.r + o2.c) return (o2.r + o2.c) - (o1.r + o1.c);
-                if(o1.c != o2.c) return o2.c - o1.c;
                 if(o1.r != o2.r) return o2.r - o1.r;
+                if(o1.c != o2.c) return o2.c - o1.c;
                 return o2.id - o1.id;
             }
         });
