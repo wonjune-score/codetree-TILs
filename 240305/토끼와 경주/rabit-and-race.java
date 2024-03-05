@@ -73,7 +73,7 @@ public class Main {
 			//System.out.println((2 * (n - 1)));
 			//System.out.println(nr);
 
-			if(nr < 0) 
+			if(nr <= 0) 
 				nr += 2 * (n - 1);
 //			System.out.println(nr);
 			if (nr >= n)
@@ -97,7 +97,7 @@ public class Main {
 
 			nc = (c - d) % (2 * (m - 1));
 			//if(nc < 0) System.out.println(nc);
-			if (nc < 0)
+			if (nc <= 0)
 				nc += 2 * (m - 1);
 			if (nc >= m)
 				nc = 2 * (m - 1) - nc;
